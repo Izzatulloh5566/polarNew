@@ -88,6 +88,57 @@ margin-top: 9px;
 
 .aresu {}
 
-.shox {}
+.shox 
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.pro__profil{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.pro__pro {
+    display: flex;
+    justify-content: space-between;
+}
+    .pro__ismi{
+        font-family: 'arial';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: black;
+    }
+    .pro__millati{
+        font-family: 'arial';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: black;
+    }
+    .pro__ism{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .pro__text{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .pro__text10{
+        font-family: 'arial';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 322px;
+    }
+    .pro__rasmla{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
 
 .farrux {}
