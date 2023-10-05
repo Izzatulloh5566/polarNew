@@ -18,7 +18,51 @@
 
 .muhr {}
 
-.rik {}
+.rik {
+    background-color: #F8EDF0;
+}
+
+.rik__list {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.rik__name {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #150101;
+    padding-bottom: 15px;
+}
+.rik__text{
+font-size: 16px;
+ font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #150101;
+padding-bottom: 35px;
+}
+.rik__detail{
+    background-color: #D64374;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 36px;
+}
+.rik__logo{
+    width: 700px;
+}
+
 
 .islom {}
 
