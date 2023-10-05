@@ -11,9 +11,45 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-
-.muattar {}
-
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.muattar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.muattar__nav-list {
+    display: flex;
+    gap: 40px;
+    
+}
+.muattar__nav-link {
+    color: #150101;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+.muattar__nav-link:hover {
+    color: #D23166;
+    font-weight: 700;
+}
+.muattar__nav-btn {
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #D23166;
+    padding: 14px 50px;
+    display: block;
+    text-align: center;
+}
 .mmm {}
 
 .muhr {}
